@@ -336,7 +336,7 @@ html, body{
         overflow: hidden;
     }
     #nav-links img{
-        width: 90px;
+        width: 100px;
         height: 95px;
         margin-top: 22px;
     }
@@ -397,6 +397,35 @@ html, body{
         background-color: black;
         padding: 12vw 10vw;
     }
+    #line{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #line h1{
+        text-transform: uppercase;
+        font-family: futura;
+        font-weight: 300;
+        font-size: 2vw;
+        padding: 0 1.5vw;
+        margin-bottom: -60px;
+    }
+    #line1{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #line1 h1{
+        font-family: futura;
+        font-weight: 300;
+        font-size: 2vw;
+        padding: 0 1.5vw;
+        margin-bottom: -60px;
+    }
     #page2{
         min-height: 100vh;
         width: 100%;
@@ -420,6 +449,7 @@ html, body{
         padding: 2vw 3vw;
         scale: 1;
      }
+   
      #passage{
         height: 30vh;
         width: 100%;
@@ -427,7 +457,7 @@ html, body{
         align-items: center;
         justify-content: space-between;
         margin-left: 2vw;
-        margin-top: 3vw;
+        margin-top: 10vw;
         flex-direction: column;
     }
     #passage h1{
@@ -491,5 +521,35 @@ html, body{
         text-align: center;
         font-size: 14px;
         margin-left: 5px;
+    }
+    #furthur{
+        height: 40vh;
+        text-align: center;
+        margin-top: 7vw;
+    }
+    #furthur h1{
+        line-height: 1;
+        font-size: 6vw;
+        padding: 0 1vw;
+    }
+    #message{
+        height: 5vw;
+        width: 50%;
+        border: 0;
+        outline: 0;
+        background-color: #000000;
+        color: #fff;
+        border-radius: 50px;
+        font-size: 1.5vw;
+        margin: 4vw 0;
+        font-weight: 100;
+        font-family: futura;
+    }
+    #message:hover{
+        color:#B3B3B3 ;
+    }
+    #furthur p{
+        font-size: 2vw;
+        line-height: 1.3;
     }
 }
