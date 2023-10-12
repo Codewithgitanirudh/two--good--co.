@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: futura;
+    
 }
 *::selection{
     background-color: black;
@@ -26,7 +26,6 @@ html, body{
 }
 #nav{
     text-align: center;
-    font-family: futura;
     height: 100px;
     width: 100%;
     display: flex;
@@ -46,6 +45,9 @@ html, body{
     height: 110px;
     margin-top: 18px;
 }
+#nav-links h1{
+    font-family: futura;
+}
 
 #nav h1{
     line-height: 0.7;
@@ -63,7 +65,6 @@ html, body{
     list-style-type: none;
 }
 #nav1 ul li{
-    font-family: futura;
     list-style-type: none;
     padding: 0 20px;
     margin-right: 30px;
@@ -188,7 +189,6 @@ html, body{
 }
 #line h1{
     text-transform: uppercase;
-    font-family: futura;
     font-weight: 300;
     font-size: 1vw;
     padding: 0 1.5vw;
@@ -209,6 +209,7 @@ html, body{
     margin-left: 2vw;
 }
 #passage h1{
+    font-family: futura;
     width: 55%;
     position: relative;
     bottom: 50px;
@@ -276,7 +277,6 @@ html, body{
     justify-content: space-between;
 }
 #line1 h1{
-    font-family: futura;
     font-weight: 300;
     font-size: 1vw;
     padding: 0 1.5vw;
@@ -297,6 +297,7 @@ html, body{
     line-height: 1;
     font-size: 4vw;
     padding: 0 1vw;
+    font-family: futura;
 }
 #message{
     height: 4vw;
@@ -340,6 +341,68 @@ input{
     font-size: 2vw;
     top: 3vw;
     right: 5vw;
+}
+
+footer{
+    margin: 0 auto;
+    height: 80%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#middle{
+    width: 30%;
+    text-align: center;
+}
+#middle img{
+    height: 329px;
+    width: 344px;
+}
+
+#middle ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#middle ul h1{
+    padding: 0 -22px;
+    font-size: 12px;
+    color: #929292;
+    letter-spacing: 1px;
+}
+#rightside{
+    text-align: right;
+}
+#leftside h1, #rightside h1{
+    font-size: 12px;
+    letter-spacing: 1.5;
+   line-height: 1.5;
+   cursor: pointer;
+   text-transform: uppercase;
+}
+#leftside h2, #rightside h2{
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #929292;
+    text-transform: uppercase;
+    font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+}
+#leftside h1:hover, #rightside h1:hover{
+    color: #B3B3B3;
+}
+
+#last{
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px 0;
+}
+#last p{
+    font-size: 15px;
+    line-height: -5px;
 }
 
 @media(max-width:600px){
