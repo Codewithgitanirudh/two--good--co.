@@ -75,7 +75,7 @@ html, body{
 }
 #nav1 ul li::before{
     content: "";
-    height: 2px;
+    height: 1px;
     margin-left: 18px;
     background-color: #000000;
     width: 0%;
@@ -367,9 +367,10 @@ footer{
 }
 #middle ul h1{
     padding: 0 -22px;
-    font-size: 12px;
+    font-size: 15px;
+ 
     color: #929292;
-    letter-spacing: 1px;
+    
 }
 #rightside{
     text-align: right;
@@ -525,6 +526,7 @@ footer{
         height: 100%;
         width: 100%;
         margin: 0 2vw;
+        overflow: hidden;
     }
     #page2 .elem img{
         height: 160vh;
@@ -568,7 +570,7 @@ footer{
     }
     #para #shop::before{
         content: "";
-        height: 2px;
+        height: 0.5px;
         background-color: #000000;
         margin-bottom: 7px;
         margin-left: 37%;
@@ -661,4 +663,65 @@ footer{
         top: 8vw;
         right: 5vw;
     }
+    footer{
+        margin: 0 auto;
+        height: 80%;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #middle{
+        width: 40%;
+        text-align: center;
+    }
+    #middle img{
+        margin-top: 20px;
+        height: 90px;
+        width: 100px;
+    }
+    
+    #middle ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    #middle ul h1{
+        padding: 0 -22px;
+        font-size: 10px;
+        color: #929292; 
+    }
+    #rightside{
+        text-align: right;
+    }
+    #leftside h1, #rightside h1{
+        font-size: 9px;
+        letter-spacing: 1.5;
+       line-height: 1.5;
+       cursor: pointer;
+       text-transform: uppercase;
+    }
+    #leftside h2, #rightside h2{
+        margin-bottom: 20px;
+        cursor: pointer;
+        font-size: 10px;
+        color: #929292;
+        text-transform: uppercase;
+        font-family: "Helvetica Now Text", "Lucida Sans", Tahoma, sans-serif;
+    }
+    #leftside h1:hover, #rightside h1:hover{
+        color: #B3B3B3;
+    }
+    #last{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 30px;
+        text-align: left;
+        padding: 30px 0;
+    }
+    #last p{
+        font-size: 15px;
+        line-height: -5px;
+    }
 }
+
