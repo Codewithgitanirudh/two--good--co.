@@ -179,6 +179,25 @@ html, body{
     background-color: beige ;
     position: absolute;
     z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8vw;
+    font-weight: 100;
+    font-family: futura;
+}
+#page2 .elem .box h1{
+    font-family: futura;
+    font-size: 0.8vw;
+}
+
+#page2 .elem .box #dot{
+    font-weight: 100;
+    font-size: 0.6vw;
+}
+#page2 .elem .box i{
+    font-weight: 100;
+    font-size: 1vw;
 }
 #line{
     height: 10vh;
@@ -219,7 +238,7 @@ html, body{
 #para{
     margin-left: 60px;
     text-align:start;
-    width: 30%;
+    width: 26%;
     position: relative;
 }
 #para p{
@@ -646,7 +665,7 @@ footer{
     input{
         height: 70px;
         width: 95%;
-        font-size: 20px;
+        font-size: 15px;
         text-transform: uppercase;
         color: #000000;
         border: 0;
@@ -654,7 +673,6 @@ footer{
         background-color: #f7f7f7;
         border-bottom: 0.7px solid ;
         margin: 2vw ;
-        padding: 0 10px;
         position: relative;
     }
     #input1 i{
