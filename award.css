@@ -162,7 +162,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 1.1vw;
+    margin: 0 1vw;
     overflow: hidden;
 }
 #page2 .elem img{
